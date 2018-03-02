@@ -12,7 +12,7 @@ def line(deli_line)
 end
 
 def take_a_number(deli_line, *name)
-  name = name.to_s
+  name = name.join
   deli_line << name
   puts "Welcome, #{name}. You are number #{deli_line.length} in line."
 end
