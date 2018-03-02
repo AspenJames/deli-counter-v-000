@@ -1,6 +1,6 @@
 def line(deli_line)
   if deli_line == []
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     spot = nil
     line_with_spot = Array.new
